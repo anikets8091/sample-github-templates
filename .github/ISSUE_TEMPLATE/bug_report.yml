@@ -1,1 +1,13 @@
+name: "Bug Report"
+description: "Report a bug in the project"
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Describe the bug"
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to reproduce"
 
